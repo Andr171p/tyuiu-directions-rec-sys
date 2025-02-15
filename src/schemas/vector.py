@@ -44,4 +44,4 @@ class VectorSchema(BaseModel):
         return DataFrame([self.model_dump()])
     
     def to_numpy(self) -> ndarray:
-        return self.to_dataframe().to_numpy()
+        return self.to_dataframe().to_numpy().reshape(-1, 1)
