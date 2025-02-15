@@ -42,6 +42,7 @@ scaled_vector = scaler.transform(applicants_df)
 client = chromadb.PersistentClient()
 collection = client.get_collection("applicants")
 results = collection.query(
-    query_embeddings=scaled_vector[0]
+    query_embeddings=scaled_vector[10]
 )
-print(results["metadatas"])
+print(results)
+print(type(results))

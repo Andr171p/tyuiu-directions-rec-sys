@@ -1,0 +1,9 @@
+pydantic~=2.10.6
+numpy~=2.2.3
+pandas~=2.2.3
+chromadb~=0.6.3
+joblib~=1.4.2
+fastapi~=0.115.8
+scikit-learn~=1.6.1
+uvicorn~=0.34.0
+python-dotenv~=1.0.1
