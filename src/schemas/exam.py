@@ -4,7 +4,7 @@ from pydantic import BaseModel
 
 
 class ExamSchema(BaseModel):
-    name: Literal[
+    subject: Literal[
         "russian", 
         "social_science", 
         "math", 

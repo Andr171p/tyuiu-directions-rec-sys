@@ -16,4 +16,4 @@ class ApplicantSchema(BaseModel):
     
     @property
     def exams_dict(self) -> Dict[str, int]:
-        return {exam.name: exam.points for exam in self.exams}
+        return {exam.subject: exam.points for exam in self.exams}
