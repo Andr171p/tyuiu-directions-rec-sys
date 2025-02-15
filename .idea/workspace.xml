@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9655b2c-563a-4494-b263-522537ba53e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vector_store/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vector_store/chroma_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vector_store/chroma_collection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c9655b2c-563a-4494-b263-522537ba53e5" name="Changes" comment="16.02.2025 add chroma vector store">
+      <change afterPath="$PROJECT_DIR$/src/repository/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repository/applicants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repository/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vector_store/chroma_client_factory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schemas/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schemas/vector.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas/vector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vector_store/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/vector_store/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vector_store/chroma_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vector_store/chroma_collection.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +45,12 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\TyuiuDirectionsRecSys\src\vector_store" />
+      <recent name="C:\Users\andre\TyuiuDirectionsRecSys\src\vector_store\collections" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TyuiuDirectionsRecSys" />
@@ -92,6 +96,19 @@
       <option name="presentableId" value="Default" />
       <updated>1739525884219</updated>
     </task>
+    <task id="LOCAL-00001" summary="16.02.2025 add chroma vector store">
+      <option name="closed" value="true" />
+      <created>1739656879079</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739656879079</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="16.02.2025 add chroma vector store" />
+    <option name="LAST_COMMIT_MESSAGE" value="16.02.2025 add chroma vector store" />
   </component>
 </project>
