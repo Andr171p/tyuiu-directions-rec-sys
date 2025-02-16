@@ -32,7 +32,7 @@ import pandas as pd
 #         metadatas={"direction": direction},
 #     )
 
-scaler = joblib.load(r"C:\Users\andre\TyuiuDirectionsRecSys\notebooks\standard_scaler.joblib")
+scaler = joblib.load(r"C:\Users\andre\TyuiuDirectionsRecSys\estimators\standard_scaler.joblib")
 df = pd.read_csv(r"C:\Users\andre\TyuiuDirectionsRecSys\notebooks\Applicant.csv")
 df.drop("Unnamed: 0", axis=1, inplace=True)
 print(df.loc[0])

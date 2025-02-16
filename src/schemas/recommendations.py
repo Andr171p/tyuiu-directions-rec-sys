@@ -5,5 +5,5 @@ from pydantic import BaseModel
 from src.schemas.direction import DirectionSchema
 
 
-class RecommendationSchema(BaseModel):
+class RecommendationsSchema(BaseModel):
     directions: List[DirectionSchema]

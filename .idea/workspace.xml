@@ -4,15 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9655b2c-563a-4494-b263-522537ba53e5" name="Changes" comment="16.02.2025 add chroma vector store">
-      <change afterPath="$PROJECT_DIR$/src/repository/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/applicants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vector_store/chroma_client_factory.py" afterDir="false" />
+    <list default="true" id="c9655b2c-563a-4494-b263-522537ba53e5" name="Changes" comment="16.02.2025 add repository">
+      <change afterPath="$PROJECT_DIR$/src/recommendation_system/directions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recommendation_system/estimators/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recommendation_system/estimators/gender_binarizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recommendation_system/estimators/military_service_binarizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recommendation_system/estimators/simple_imputer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recommendation_system/estimators/standard_scaler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recommendation_system/pipeline.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vector_store/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/vector_store/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vector_store/chroma_client.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vector_store/chroma_collection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/gender_binarizer.joblib" beforeDir="false" afterPath="$PROJECT_DIR$/estimators/gender_binarizer.joblib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/milirary_service_binarizer.joblib" beforeDir="false" afterPath="$PROJECT_DIR$/estimators/military_service_binarizer.joblib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/standard_scaler.joblib" beforeDir="false" afterPath="$PROJECT_DIR$/estimators/standard_scaler.joblib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/recommendation_system/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/applicants.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schemas/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schemas/recommendation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas/recommendations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vector_store/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/recommendation_system/collection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vector_store/chroma_client_factory.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Stub" />
         <option value="Python Script" />
       </list>
     </option>
@@ -38,15 +51,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\TyuiuDirectionsRecSys\estimators" />
       <recent name="C:\Users\andre\TyuiuDirectionsRecSys\src\vector_store" />
       <recent name="C:\Users\andre\TyuiuDirectionsRecSys\src\vector_store\collections" />
     </key>
@@ -104,11 +118,20 @@
       <option name="project" value="LOCAL" />
       <updated>1739656879079</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="16.02.2025 add repository">
+      <option name="closed" value="true" />
+      <created>1739658985794</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739658985794</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="16.02.2025 add chroma vector store" />
-    <option name="LAST_COMMIT_MESSAGE" value="16.02.2025 add chroma vector store" />
+    <MESSAGE value="16.02.2025 add repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="16.02.2025 add repository" />
   </component>
 </project>
